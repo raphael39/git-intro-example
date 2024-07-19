@@ -1,0 +1,17 @@
+Verwendung: git init [-q | --quiet] [--bare] [--template=<Vorlagenverzeichnis>]
+                     [--separate-git-dir <Git-Verzeichnis>] [--object-format=<Format>]
+                     [-b <Branchname> | --initial-branch=<Branchname>]
+                     [--shared[=<Berechtigungen>]] [<Verzeichnis>]
+
+    --template <Vorlagenverzeichnis>
+                          Verzeichnis, von welchem die Vorlagen verwendet werden
+    --bare                ein Bare-Repository erstellen
+    --shared[=<Berechtigungen>]
+                          angeben, dass das Git-Repository mit mehreren Benutzern geteilt wird
+    -q, --quiet           weniger Ausgaben
+    --separate-git-dir <.git-Verzeichnis>
+                          Git-Verzeichnis vom Arbeitsverzeichnis separieren
+    -b, --initial-branch <Name>
+                          den Namen des initialen Branches überschreiben
+    --object-format <Hash>
+                          den zu verwendenen Hash-Algorithmus angeben
